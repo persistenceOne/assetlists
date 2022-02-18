@@ -26,6 +26,10 @@
     },
     {
       "description": "The native staking and governance token of the Cosmos Hub.",
+      "accounts":{
+        "persistence":"persistence1z33ulgtrym2yge6k0tr3n07d56y0vkjzrcvfn0",
+        "cosmos":"cosmos1qt43egqw70amh4xrtrahysj3tvu7hftqgl4nw3"
+      },
       "denom_units": [
         {
           "denom": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
@@ -56,6 +60,10 @@
     },
         {
       "description": "The native token of Gravity Bridge",
+      "accounts":{
+        "persistence":"persistence1valwac2xy0jf69pnkmrm2z4kgvuq05f7m77qyz",
+        "gravity":"gravity1xzg9mggvd6zcu23j7pgm6ca6h9w67w6weyt74r"
+      },
       "denom_units": [
         {
           "denom": "ibc/31D711D31CD5D83D98E76B1486EEDA1A38CD1F7D6FCBD03521FE51323115AECA",
@@ -85,6 +93,10 @@
     },
     {
       "description": "The native token of JUNO Chain",
+      "accounts":{
+        "persistence":"persistence16pyu34duaee49ghyr5aqraw854a5sswww7vc9e",
+        "juno":"juno1543y7zna23z9jlm55780qxwf4mq0h6r9rq557q"
+      },
       "denom_units": [
         {
           "denom": "ibc/CA687302422C075B26948BEC7143F6D47BACAB53421D57DF30741F91D4DFCA1F",
@@ -113,8 +125,12 @@
       },
       "coingecko_id": "juno-network"
     },
-        {
+    {
       "description": "The native token of Osmosis",
+      "accounts":{
+        "persistence":"persistence1jnqas28lfcsqxfgjs9wpce8fkzfhwnc36ywzum",
+        "osmosis":"osmo1tu9qamnm72ycmpxj5k8jyaayxus485nyda0slr"
+      },
       "denom_units": [
         {
           "denom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
@@ -124,7 +140,7 @@
           ]
         },
         {
-          "denom": "juno",
+          "denom": "osmo",
           "exponent": 6
         }
       ],
