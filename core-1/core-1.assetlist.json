@@ -53,6 +53,96 @@
         "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg"
       },
       "coingecko_id": "cosmos"
+    },
+        {
+      "description": "The native token of Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/31D711D31CD5D83D98E76B1486EEDA1A38CD1F7D6FCBD03521FE51323115AECA",
+          "exponent": 0,
+          "aliases": [
+            "ugraviton"
+          ]
+        },
+        {
+          "denom": "graviton",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/31D711D31CD5D83D98E76B1486EEDA1A38CD1F7D6FCBD03521FE51323115AECA",
+      "name": "Graviton",
+      "display": "graviton",
+      "symbol": "GRAV",
+      "ibc": {
+        "source_channel": "channel-24",
+        "dst_channel": "channel-38",
+        "source_denom": "ugraviton"
+      },
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/grav.png",
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/grav.svg"
+      }
+    },
+    {
+      "description": "The native token of JUNO Chain",
+      "denom_units": [
+        {
+          "denom": "ibc/CA687302422C075B26948BEC7143F6D47BACAB53421D57DF30741F91D4DFCA1F",
+          "exponent": 0,
+          "aliases": [
+            "ujuno"
+          ]
+        },
+        {
+          "denom": "juno",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/CA687302422C075B26948BEC7143F6D47BACAB53421D57DF30741F91D4DFCA1F",
+      "name": "Juno",
+      "display": "juno",
+      "symbol": "JUNO",
+      "ibc": {
+        "source_channel": "channel-33",
+        "dst_channel": "channel-37",
+        "source_denom": "ujuno"
+      },
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/juno.png",
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/juno.svg"
+      },
+      "coingecko_id": "juno-network"
+    },
+        {
+      "description": "The native token of Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+          "exponent": 0,
+          "aliases": [
+            "uosmo"
+          ]
+        },
+        {
+          "denom": "juno",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "ibc": {
+        "source_channel": "channel-04",
+        "dst_channel": "channel-06",
+        "source_denom": "uosmo"
+      },
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.png",
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg"
+      },
+
+      "coingecko_id": "osmosis"
     }
   ]
 }
