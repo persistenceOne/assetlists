@@ -1,0 +1,30 @@
+{
+  "chain_id": "core-1",
+  "relayers": [
+    {
+      "vendor": "Audit.one",
+      "accounts": [
+        {
+          "chain": "cosmos",
+          "source": "cosmos1qt43egqw70amh4xrtrahysj3tvu7hftqgl4nw3",
+          "destination": "persistence1z33ulgtrym2yge6k0tr3n07d56y0vkjzrcvfn0"
+        },
+        {
+          "chain": "osmosis",
+          "source": "osmo1tu9qamnm72ycmpxj5k8jyaayxus485nyda0slr",
+          "destination": "persistence1jnqas28lfcsqxfgjs9wpce8fkzfhwnc36ywzum"
+        },
+        {
+          "chain": "juno",
+          "source": "juno1543y7zna23z9jlm55780qxwf4mq0h6r9rq557q",
+          "destination": "persistence16pyu34duaee49ghyr5aqraw854a5sswww7vc9e"
+        },
+        {
+          "chain": "gravity-bridge",
+          "source": "gravity1xzg9mggvd6zcu23j7pgm6ca6h9w67w6weyt74r",
+          "destination": "persistence1valwac2xy0jf69pnkmrm2z4kgvuq05f7m77qyz"
+        }
+      ]
+    }
+  ]
+}
