@@ -26,6 +26,29 @@
       "coingecko_id": "persistence"
     },
     {
+      "description": "PSTAKE Liquid-Staked ATOM",
+      "denom_units": [
+        {
+          "denom": "stk/uatom",
+          "exponent": 0,
+          "aliases": []
+        },
+        {
+          "denom": "stk/atom",
+          "exponent": 6,
+          "aliases": []
+        }
+      ],
+      "base": "stk/uatom",
+      "name": "PSTAKE staked ATOM",
+      "display": "stkatom",
+      "symbol": "STKATOM",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/stkatom.png",
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/stkatom.svg"
+      }
+    },
+    {
       "description": "The native staking and governance token of the Cosmos Hub.",
       "denom_units": [
         {

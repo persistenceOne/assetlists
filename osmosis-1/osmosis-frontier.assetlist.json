@@ -158,6 +158,34 @@
       "coingecko_id": "pstake-finance"
     },
     {
+      "description": "PSTAKE Liquid-Staked ATOM",
+      "denom_units": [
+        {
+          "denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+          "exponent": 0,
+          "aliases": ["stk/uatom"]
+        },
+        {
+          "denom": "stk/atom",
+          "exponent": 6,
+          "aliases": []
+        }
+      ],
+      "base": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+      "name": "PSTAKE staked ATOM",
+      "display": "stkatom",
+      "symbol": "STKATOM",
+      "ibc": {
+        "source_channel": "channel-6",
+        "dst_channel": "channel-4",
+        "source_denom": "stk/uatom"
+      },
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/stkatom.png",
+        "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/stkatom.svg"
+      }
+    },
+    {
       "description": "The IRIS token is the native governance token for the IrisNet chain.",
       "denom_units": [
         {
